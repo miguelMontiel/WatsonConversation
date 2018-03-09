@@ -33,25 +33,17 @@
 			<textarea name = "descripcion" autocomplete = "off" rows = "8" cols = "75"></textarea>
 			<br> <br>
 
-			<p id = "date"></p>
-
 			<input type = "submit" class = "submit" onclick = "return btn_Submit()" value = "Ingresar">
 		</form>
 	</body>
 
-	<?php
-		n =  new Date();
-		y = n.getFullYear();
-		m = n.getMonth() + 1;
-		d = n.getDate();
-		
+	<?php		
 		if(isset($_POST['Submit']))
 		{
 			$Mail = $_POST['correo'];
 			$Description = $_POST['description'];
-			$Date = document.getElementById("date").innerHTML = y + "-" + m + "-" + d;
 
-			$sql = "INSERT INTO Incidencias (ID, MAIL, DESCRIPTION, DATE, ACTIVE) VALUES (NULL, '$Mail', '$Description', '$Date', NULL)";
+			$sql = "INSERT INTO Incidencias (ID, MAIL, DESCRIPTION, ACTIVE) VALUES (NULL, '$Mail', '$Description', NULL)";
 
 			if(!mysqli_query($conn, $sql))
 			{
