@@ -18,9 +18,7 @@ public class Simple
 	Simple()
 	{
 		service = new Conversation(Conversation.VERSION_DATE_2017_05_26);
-
 		service.setUsernameAndPassword("7af7d4a9-a019-4fcc-9069-0edd1cca8ec4", "l7RRJH2d16Vf");
-
 	}
 
 	String conversationService(String strMeensaje) 
