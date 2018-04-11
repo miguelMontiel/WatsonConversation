@@ -9,7 +9,7 @@
 	</head>
 
 	<header>
-		<img src = "tecmilenio.png">
+		<img id = "tecmilenio" src = "tecmilenio.png">
 	</header>
 
 	<?php
@@ -22,7 +22,7 @@
 	<body>
 		<h1>Dudas y Aclaraciones</h1>
 
-		<form action = "inicio.php" method = "post">
+		<form action = "Gracias.html" method = "post">
 			<label>Correo</label> 
 			<br>
 			<input type = "text" name = "correo" autocomplete = "off" autofocus>
@@ -33,17 +33,20 @@
 			<textarea name = "descripcion" autocomplete = "off" rows = "8" cols = "75"></textarea>
 			<br> <br>
 
-			<input type = "submit" class = "submit" onclick = "return btn_Submit()" value = "Ingresar">
+			<p id = "date"></p>
+
+			<input type = "Submit" name = "Submit" class = "submit" onclick = "return btn_Submit()" value = "Ingresar">
 		</form>
 	</body>
 
-	<?php		
+	<?php
 		if(isset($_POST['Submit']))
 		{
 			$Mail = $_POST['correo'];
-			$Description = $_POST['description'];
+			$Description = $_POST['descripcion'];
+			$Date = date("Y/m/d");
 
-			$sql = "INSERT INTO Incidencias (ID, MAIL, DESCRIPTION, ACTIVE) VALUES (NULL, '$Mail', '$Description', NULL)";
+			$sql = "INSERT INTO Incidencias (ID, MAIL, DESCRIPTION, DATE, ACTIVE) VALUES (NULL, '$Mail', '$Description', '$Date', NULL)";
 
 			if(!mysqli_query($conn, $sql))
 			{

@@ -53,3 +53,7 @@ textarea, input
 {
 	background-color: rgb(23, 134, 1);
 }
+img#tecmilenio
+{
+    max-width: 10%;
+}
