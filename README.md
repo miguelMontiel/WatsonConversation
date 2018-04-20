@@ -10,16 +10,24 @@
 </div>
 <br>
 <div id = "Instalacion">
-	<h2>Instalación</h2>
+	<h2>Instalación del ejecutable</h2>
 	<p>Para hacer uso de este programa no es necesario hacer una instalación, el proyecto viene con una construcción del mismo en formato de Jar, haciendolo muy portable para diversos sitemas operativos, gracias a Java.</p>
+	<h3>Java</h3>
+	<p>http://www.oracle.com/technetwork/java/javase/downloads/index.html</p>
 	
+	<h2>Instalación para código fuente</h2>
+	<h3>JDK</h3>
+	<p>http://www.oracle.com/technetwork/java/javase/downloads/jdk10-downloads-4416644.html</p>
+	<h3>IDE</h3>
+	<p>Netbeans: https://netbeans.org/downloads/</p>
+	<p>Eclipse: http://www.eclipse.org/downloads/eclipse-packages/</p>
 </div>
 <br>
 <div id = "Requerimientos">
 	<h2>Requerimientos</h2>
 	<ul>
 		<li>Sistema Operativo Windows 7, 8, 8.1, 10, MacOS, Linux</li>
-		<li>Java 9</li>
+		<li>Java 9 o superior</li>
 	</ul>
 </div>
 <br>
