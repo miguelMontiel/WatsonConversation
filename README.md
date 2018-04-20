@@ -11,11 +11,16 @@
 <br>
 <div id = "Instalacion">
 	<h2>Instalación</h2>
-	<p>Para hacer uso de este programa no es necesario hacer una instalación, el proyecto viene con una construcción del mismo en formato de Jar, haciendolo </p>
+	<p>Para hacer uso de este programa no es necesario hacer una instalación, el proyecto viene con una construcción del mismo en formato de Jar, haciendolo muy portable para diversos sitemas operativos, gracias a Java.</p>
+	
 </div>
 <br>
 <div id = "Requerimientos">
 	<h2>Requerimientos</h2>
+	<ul>
+		<li>Sistema Operativo Windows 7, 8, 8.1, 10, MacOS, Linux</li>
+		<li>Java 9</li>
+	</ul>
 </div>
 <br>
 <div id = "FAQ">
