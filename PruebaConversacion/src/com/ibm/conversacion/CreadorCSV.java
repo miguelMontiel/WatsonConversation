@@ -40,7 +40,7 @@ public class CreadorCSV
 				System.out.println();
 				System.out.println("-----------------------" + i++);
 
-				respuesta = csvrecord.get(0).replace("\n", " ").replace("\r", " "); 
+				respuesta = csvrecord.get(2).replace("\n", " ").replace("\r", " "); 
 
 				int maxLength = (respuesta.length() < 2101)?respuesta.length():2101;
 				respuestaCortada = respuesta.substring(0, maxLength);
