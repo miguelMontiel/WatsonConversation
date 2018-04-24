@@ -37,7 +37,7 @@
 <div id = "FAQ">
 	<h2>Preguntas Frecuentes</h2>
 	<h3>¿Qué tipos de archivos puedo enviar?</h3>
-	<p>Única mente se pueden enviar archivos con extensión CSV, al momento de ser guardados asegurarse que tengan un encoding UTF-8 para que se consideren caracteres latinoamericanos.</p>
+	<p>Únicamente se pueden enviar archivos con extensión CSV, al momento de ser guardados asegurarse que tengan un encoding UTF-8 para que se consideren caracteres latinoamericanos.</p>
 	<h3>¡Mi archivo tarda mucho en procesar!</h3>
 	<p>La rápidez del programa y de la respuesta de Watson tarda dependiendo de la cantidad de preguntas que se le están mandando a la vez, un archivo de 10000 preguntas obviamente va a tardar mucho más que uno de 10</p>
 	<h3>El CSV de respuesta generá caracteres raros en la nueva columna</h3>
