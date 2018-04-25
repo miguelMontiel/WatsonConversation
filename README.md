@@ -1,7 +1,7 @@
 <h1> Watson Conversation </h1>
 <div>
 	<a href = '#Instalacion'>Instalación</a> |
-	<a href = '#Requerimientos'>Requerimientos</a> |
+	<a href = '#Requerimientos'>Requerimientos</a>
 </div>
 <br>
 <div id = "Resumen">
