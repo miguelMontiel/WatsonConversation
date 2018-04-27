@@ -10,11 +10,11 @@
 	<h3>Descripción</h3>
 	<p>WatsonConversation es una aplicación de escritorio desarrollada en Java 9 junto con las librerias de Bluemix para poder utilizar sus APIs, al igual que un interpretador y formateo para conservar los encodings 'UTF-8' para el envío y regreso de respuestas dinamicas de preguntas previamente solucionadas.<p>
 	<h3>Problema</h3>
-	<p></p>
+	<p>Este proyecto es una propuesta de las múltiples soluciones que se pueden obtener con el API de Watson Assistant para la resolución de tickets que se generan al dia de las aplicaciones actualmente en uso. </p>
 	<h3>Solución</h3>
 	<p>Esta solución se dirige a todos los analistas dentro de la empresa, o bien el área de soporte, que necesitan resolver problemas en el menor tiempo posible, también sirve para integrar fácilmente a nuevos recursos dentro de la línea de negocio al integrar esta herramienta.</p>
 	<h3>Arquitectura</h3>
-	<p></p>
+	<p>Actualmente el proyecto se tienen desarrolladas dos características el entrenamiento de Watson para mi demo referente a Blackboard y ciertos aspectos que puedan provocar dudas acerca de su funcionamiento, a su vez se tiene un programa para el envío y la recepción de archivos CSV para el análisis necesario con Watson Assistant.</p>
 </div>
 <br>
 <div id = "Instalacion">
