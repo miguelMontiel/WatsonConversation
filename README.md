@@ -1,11 +1,20 @@
 <h1> Watson Conversation </h1>
 <div>
+	<a href = '#Resumen'>Resumen</a> |
 	<a href = '#Instalacion'>Instalación</a> |
 	<a href = '#Requerimientos'>Requerimientos</a>
 </div>
 <br>
 <div id = "Resumen">
-	<p>WatsonConversation es una aplicación de escritorio desarrollada en Java 9 junto con las librerias de Bluemix para poder utilizar sus APIs, al igual que el interpretador y formateo de apache para conservar los encodings 'UTF-8' para el envío y regreso de respuestas dinamicas de preguntas previamente solucionadas.<p>
+	<h2>Resumen</h2>
+	<h3>Descripción</h3>
+	<p>WatsonConversation es una aplicación de escritorio desarrollada en Java 9 junto con las librerias de Bluemix para poder utilizar sus APIs, al igual que un interpretador y formateo para conservar los encodings 'UTF-8' para el envío y regreso de respuestas dinamicas de preguntas previamente solucionadas.<p>
+	<h3>Problema</h3>
+	<p></p>
+	<h3>Solución</h3>
+	<p>Esta solución se dirige a todos los analistas dentro de la empresa, o bien el área de soporte, que necesitan resolver problemas en el menor tiempo posible, también sirve para integrar fácilmente a nuevos recursos dentro de la línea de negocio al integrar esta herramienta.</p>
+	<h3>Arquitectura</h3>
+	<p></p>
 </div>
 <br>
 <div id = "Instalacion">
