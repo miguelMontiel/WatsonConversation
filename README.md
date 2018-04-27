@@ -1,8 +1,9 @@
 <h1> Watson Conversation </h1>
 <div>
-	<a href = '#Resumen'>Resumen</a> |
-	<a href = '#Instalacion'>Instalación</a> |
-	<a href = '#Requerimientos'>Requerimientos</a>
+	<b><a href = '#Resumen'>Resumen</a></b> |
+	<b><a href = '#Instalacion'>Instalación</a></b> |
+	<b><a href = '#Requerimientos'>Requerimientos</a></b> |
+	<b><a href = 'https://github.com/miguelMontiel/WatsonConversation/wiki/Preguntas-frecuentes'>Preguntas Frecuentes</a></b>
 </div>
 <br>
 <div id = "Resumen">
